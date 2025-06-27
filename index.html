@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Feedback Form</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="main-container">
+    <div class="form-box">
+      <h1>We Value Your Feedback 💬</h1>
+      <p>Please fill out the form below to share your thoughts with us.</p>
+
+      <form id="feedbackForm">
+        <div class="input-group">
+          <label for="name">Full Name *</label>
+          <input type="text" id="name" placeholder="Enter your name">
+        </div>
+
+        <div class="input-group">
+          <label for="email">Email Address *</label>
+          <input type="text" id="email" placeholder="e.g., name@example.com">
+        </div>
+
+        <div class="input-group">
+          <label for="mobile">Mobile Number *</label>
+          <input type="text" id="mobile" placeholder="10-digit mobile number">
+        </div>
+
+        <div class="input-group">
+          <label for="message">Your Feedback *</label>
+          <textarea id="message" rows="5" placeholder="Write your feedback here..."></textarea>
+        </div>
+
+        <p id="error" class="error-message"></p>
+
+        <button type="submit">Submit Feedback</button>
+      </form>
+    </div>
+    <div class="footer">
+  <p>Feedback form created by <strong> Hari Om Thakur.</strong></p>
+</div>
+
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
